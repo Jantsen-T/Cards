@@ -14,6 +14,7 @@
 		C0E151D42677CA5800D40F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E151D22677CA5800D40F01 /* Main.storyboard */; };
 		C0E151D62677CA5900D40F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E151D52677CA5900D40F01 /* Assets.xcassets */; };
 		C0E151D92677CA5900D40F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E151D72677CA5900D40F01 /* LaunchScreen.storyboard */; };
+		C0E151E32677CF4A00D40F01 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E151E22677CF4A00D40F01 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C0E151D52677CA5900D40F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E151D82677CA5900D40F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E151DA2677CA5900D40F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E151E22677CF4A00D40F01 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		C0E151CB2677CA5800D40F01 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				C0E151E42677CF4F00D40F01 /* Models */,
 				3BCAA1462677CE3B00BEA3D1 /* Controllers */,
 				C0E151E12677CBC000D40F01 /* Resources */,
 				C0E151D02677CA5800D40F01 /* ViewController.swift */,
@@ -84,6 +87,14 @@
 				C0E151DA2677CA5900D40F01 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0E151E42677CF4F00D40F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151E22677CF4A00D40F01 /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			files = (
 				C0E151D12677CA5800D40F01 /* ViewController.swift in Sources */,
 				3BCAA1482677CE4C00BEA3D1 /* CardsController.swift in Sources */,
+				C0E151E32677CF4A00D40F01 /* Card.swift in Sources */,
 				C0E151CD2677CA5800D40F01 /* AppDelegate.swift in Sources */,
 				C0E151CF2677CA5800D40F01 /* SceneDelegate.swift in Sources */,
 			);
