@@ -20,7 +20,9 @@ class CardDetailViewController: UIViewController {
         
     }
     
-    
     //MARK: - Properties
+    
+    
+    
     
 }//End of class
