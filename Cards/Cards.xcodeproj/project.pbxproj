@@ -56,15 +56,23 @@
 		C0E151CB2677CA5800D40F01 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				C0E151CC2677CA5800D40F01 /* AppDelegate.swift */,
-				C0E151CE2677CA5800D40F01 /* SceneDelegate.swift */,
+				C0E151E12677CBC000D40F01 /* Resources */,
 				C0E151D02677CA5800D40F01 /* ViewController.swift */,
 				C0E151D22677CA5800D40F01 /* Main.storyboard */,
-				C0E151D52677CA5900D40F01 /* Assets.xcassets */,
 				C0E151D72677CA5900D40F01 /* LaunchScreen.storyboard */,
-				C0E151DA2677CA5900D40F01 /* Info.plist */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		C0E151E12677CBC000D40F01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151CC2677CA5800D40F01 /* AppDelegate.swift */,
+				C0E151CE2677CA5800D40F01 /* SceneDelegate.swift */,
+				C0E151D52677CA5900D40F01 /* Assets.xcassets */,
+				C0E151DA2677CA5900D40F01 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
