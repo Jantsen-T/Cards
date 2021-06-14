@@ -29,7 +29,7 @@ class CardDetailViewController: UIViewController {
     func setupView() {
         guard let card = card else {return}
         nameLabel.text = card.title
-        codingPointsLabel.text = "Coding Points \(card.codingPoints)"
+        codingPointsLabel.text = card.codingPoints
         imageLabel.image = card.profilePic
         bioLabel.text = card.bio
     }
