@@ -15,14 +15,24 @@ class CardDetailViewController: UIViewController {
     @IBOutlet weak var imageLabel: UIImageView!
     @IBOutlet weak var bioLabel: UILabel!
     
+    
+    var card: Card?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupView()
+        navigationController?.navigationBar.prefersLargeTitles = false
     }
     
     //MARK: - Properties
     
     
+    func setupView() {
+        guard let card = card else {return}
+        nameLabel.text = card.title
+        codingPointsLabel.text = "Coding Points \(card.codingPoints)"
+        imageLabel.image = card.profilePic
+        bioLabel.text = card.bio
+    }
     
     
 }//End of class
