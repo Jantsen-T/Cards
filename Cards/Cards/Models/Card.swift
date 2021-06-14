@@ -19,5 +19,6 @@ class Card {
         self.title = title
         self.bio = bio
         self.codingPoints = codingPoints
+        self.profilePic = profilePic
     }
 }
