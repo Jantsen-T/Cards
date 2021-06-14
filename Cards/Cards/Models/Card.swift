@@ -17,8 +17,8 @@ class Card {
     
     init(title: String, profilePic: UIImage?, bio: String, codingPoints: String) {
         self.title = title
+        self.profilePic = profilePic
         self.bio = bio
         self.codingPoints = codingPoints
-        self.profilePic = profilePic
     }
 }
