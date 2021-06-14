@@ -5,7 +5,11 @@
 //  Created by Tanner Roberts on 6/14/21.
 //
 
-import Foundation
+import UIKit
 
-
-//Hello World
+class CardsController {
+    
+    static let tanner = [Card(title: "Tanner", profilePic: UIImage(named: "tannerSurf")!, bio: "", codingPoints: "10 billion") ]
+    
+}
+    
