@@ -44,7 +44,7 @@
 		3BCAA1462677CE3B00BEA3D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C0E151E52677DE7800D40F01 /* Model Controllers */,
+				3BCAA1472677CE4C00BEA3D1 /* CardsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,14 +95,6 @@
 				C0E151E22677CF4A00D40F01 /* Card.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		C0E151E52677DE7800D40F01 /* Model Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				3BCAA1472677CE4C00BEA3D1 /* CardsController.swift */,
-			);
-			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
